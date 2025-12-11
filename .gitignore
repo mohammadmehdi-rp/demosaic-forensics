@@ -1,0 +1,58 @@
+########################
+# Python / general
+########################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+########################
+# Project-specific
+########################
+
+# Gradio cache / temp
+.gradio/
+
+# Datasets (large, not tracked)
+data/dataset/*
+!data/dataset/README.md
+!data/dataset/.gitkeep
+
+# Experiment outputs (reproducible)
+experiments/results/*
+!experiments/results/README.md
+!experiments/results/.gitkeep
+
+########################
+# OS / IDE files
+########################
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
